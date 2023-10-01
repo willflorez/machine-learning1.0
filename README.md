@@ -13,7 +13,6 @@
     <li><a href="#pila-de-tecnologías">Pila de Tecnologías</a></li>
     <li><a href="#ETL">ETL</a></li>
     <li><a href="#EDA">EDA</a></li>
-    <li><a href="#funciones-api">Funciones API</a></li>
     <li><a href="#modelo-ml">Modelo ML</a></li>
     <li><a href="#Deployment">Deployment</a></li>
     <li><a href="#Video">Video</a></li>
@@ -27,18 +26,11 @@ Busco personalmente la apropiación de los conocimientos de ETL, EDA y Machine L
 Es un desafío para mi enfrentarme a este Dataset y lograr realizar un modelo de Machine Learning funcional.
 ## Objetivo
 
-Desarrollar mis aptitudes de análisis con el Dataset entregado y llevar a feliz término el proyecto cumpliendo con la entrega de un modelo de Machine Learning y las funciones solicitadas desplegadas en Render.
+Poner en práctica los conceptos aprendidos durante la carrera de Data Scienst y sobreponerme a los errores de código y dificutades propias del desarrollo del proyecto. Adquirir las habilidades necesarias que me permitan desempeñarme satisfactoriamente en el mundo laboral.
 
 - **Transformación y Limpieza de Datos:** Optimizar el proceso de ETL con el fin de entender mejor los datos y tomar decisiones acertadas que me permitan conservar los datos de la mejor manera posible, en pro de cumplir con la creación de las funciones solicitadas y el modelo requerido.
 
-- **Desarrollo de API:** Entregar una API que arroje resultados acordes al contenido de los diferentes Dataset.
-
 - **Modelo ML:** Desarrollar un modelo que recomiende videojuegos con base en la similitud del coseno.
-
-**Analisis Exploratorio de Datos** Se busca encontrar patrones entre los datos, su relación con cada uno de ellos, ver si hay algun patron interesante entre cada uno de ellos.
-
-+ def **recomendacion_juego( *`id de producto`* )**:
-    Ingresando el id de producto, deberíamos recibir una lista con 5 juegos recomendados similares al ingresado.
 
 ## Pila de Tecnologías
 
@@ -61,48 +53,24 @@ Para ETL consideré cada conjunto de datos por aparte. Aplicando transformacione
 
 
 ## EDA
+Durante el desarrollo del proceso de EDA mis esfuerzos se orientaron hacia la consecución de la información justa y necesaria para la realización de las funciones y el modelo de recomendación. Por favor revisar el archivo Notebook donde se adelantó este proceso.
 
-El proceso de EDA lo centré en el conocimiento de las variables y como se relacionan entre sí. Queriendo encontrar datos que me indicarán la información mas relavante a tener en cuenta. De esta manera se obtiene por ejemplo lo siguiente: 
-1. De reviews casi el 62% de los datos reflejan sentimientos neutrales, cerca del 30% sentimientos positivos hacia el juego y menos del 9% fue negativo. 
-2. Cantidad de usuarios únicos que opinaron: 21432.
-3. Dias de pico de reviews
-
-*Estos procesos se desarrollaron localmente en **Visual Studio Code (VSCODE)** utilizando **Jupyter Notebook** como entorno de trabajo. La combinación de herramientas tecnológicas empleada esta basada en **Python** como lenguaje de programación, junto con librerias  como **numpy y pandas** para la manipulación de datos. Además, se utilizo **matplotlib y seaborn** para la creación de visualizaciones gráficas.*
-
-## Funciones API
-
-En el archivo main.py se entrega el código de las funciones solicitadas, probadas en API, preparando el proyecto para su futuro despliegue con Render
 
 ## Modelo ML
 
-El modelo de ML de recomendación de videojuegos item-item entrega 5 recomendaciones de videojuegos. 
+El modelo de ML recibe como parámetro un valor de item_id y entrega una recomendación de 5 video juegos. Se utilizó la similitud del coseno para llevar a feliz término el modelo. Se usan los tres conjuntos de datos y se crea un dataframe nuevo con las columnas title y genres para proceder a la creación de los vectores y aplicar la similitud del coseno, al final se lleva a cabo la función de recomendacion. Para el despliegue en Render se crea un dataframe con item_id y recommended para poder adelantar el despliegue. 
 
 
-# Deployment
 
-Luego de completar la implementación de **main.py** y demás archivos que componen el modelo y las funciones, el despliegue de la API se realizó de manera exitosa a través de Render, con ayuda de un **Dockerfile**:
+**Git:** Creé un repositorio de Git para el proyecto **(https://github.com/willflorez/machine-learning1.0)** .
 
-**1. Creación de Entorno Virtual:** Se utiliza venv, lo cual permitió gestionar y separar las dependencias específicas de la API.
-
-**2. Configuración de Archivos Necesarios:** Se llevaron a cabo las configuraciones necesarias para el despliegue, asegurando que todos los archivos necesarios estuvieran presentes. Algunos archivos son los datasets en formato parquet, el archivo de requirements.txt y el archivo .gitignore. 
-
-**3. Inicialización de Git:** Se inició un repositorio de Git para el proyecto **(https://github.com/willflorez/individualSteam.git)** donde se evidencia el desarrollo del proyecto.
-
-**4. Despliegue en Render:** Con Render se despliega la API. [API en ejecución](https://individualsteam.onrender.com). **(Se suguiere agregar "/docs" al final del enlace para acceder a la documentación automática creada por Swagger. Esto brinda una interfaz interactiva y detallada que describe todos los endpoints, métodos y parámetros disponibles en la API de manera clara.)**
+**Despliegue en Render:** Con Render se despliega la API. [API en ejecución](https://proyecto-machine-learning-1-0.onrender.com/docs). En la web se puede hacer el uso de las funciones y del modelo de recomendación.
 
 ## Video
 
 <div align="center">
 
-link al repositorio
-[https://github.com/willflorez/machine-learning1.0]
-
-
 link al video explicativo
 [https://www.loom.com/share/44560780b5a94f229ede5b18300114c3?sid=1441e474-2bbf-412b-953e-29e8e20d6608]
-
-
-link de render
-[https://proyecto-machine-learning-1-0.onrender.com/docs]
 
 </div>
