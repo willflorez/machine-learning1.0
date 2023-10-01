@@ -92,34 +92,21 @@ Luego de completar la implementación de **main.py** y demás archivos que compo
 
 ## Video
 
-Abajo comparto link de video solicitado.
-
 <div align="center">
-  
-[https://www.loom.com/share/3c45f5c52b9344088c52cd5bbe820492?sid=5035446d-fc5a-480e-936d-fc211e582ff4]
-  
-</div>
-
-
-
-
-
-
-
-
-
 
 link al repositorio
 
-<div align="center">
+
 
 https://github.com/willflorez/machine-learning1.0
 
 
-<div align="center">
+
 link al video explicativo
 https://www.loom.com/share/44560780b5a94f229ede5b18300114c3?sid=1441e474-2bbf-412b-953e-29e8e20d6608
 
 
 link de render
 https://proyecto-machine-learning-1-0.onrender.com/docs
+
+</div>
