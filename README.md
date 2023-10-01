@@ -56,7 +56,7 @@ Desarrollar mis aptitudes de análisis con el Dataset entregado y llevar a feliz
 
 ## Proceso de ETL
 
-Para ETL consideré cada conjunto de datos por aparte. Aplicando transformaciones donde el tipo de cada columna fuera el mismo. Estudié cada columna y sus relaciones para entender que tipo de información me iba a encontrar y fui de a poco diseñando en mi mente una posible solución con el propósito de crear las funciones que el proyecto propone. En cada uno de los tres conjuntos de datos use la función .json_normalize y procedí a eliminar nulos en el caso donde se aplicaba, a conservar los años en aquellas columnas donde la información era fechas y a desanidar columnas con datos anidados. De esa misma manera los registros duplicados fueron eliminados.
+Para ETL consideré cada conjunto de datos por aparte. Aplicando transformaciones donde el tipo de cada columna fuera el mismo. Estudié cada columna y sus relaciones para entender que tipo de información me iba a encontrar y fui de a poco diseñando en mi mente una posible solución con el propósito de crear las funciones que el proyecto propone. En cada uno de los tres conjuntos de datos use la función .json_normalize y procedí a eliminar nulos en el caso donde se aplicaba, a conservar los años en aquellas columnas donde la información era fechas y a desanidar columnas con datos anidados. De esa misma manera los registros duplicados fueron eliminados. Invito a revisar, para conocer los detalles, los tres archivos notebook creados para tal proceso.
 
 
 
@@ -110,9 +110,13 @@ Abajo comparto link de video solicitado.
 
 
 link al repositorio
+
+<div align="center">
+
 https://github.com/willflorez/machine-learning1.0
 
 
+<div align="center">
 link al video explicativo
 https://www.loom.com/share/44560780b5a94f229ede5b18300114c3?sid=1441e474-2bbf-412b-953e-29e8e20d6608
 
