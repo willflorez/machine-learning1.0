@@ -14,7 +14,6 @@
     <li><a href="#ETL">ETL</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="#modelo-ml">Modelo ML</a></li>
-    <li><a href="#Deployment">Deployment</a></li>
     <li><a href="#Video">Video</a></li>
   </ol>
 </details>
@@ -62,7 +61,7 @@ El modelo de ML recibe como parámetro un valor de item_id y entrega una recomen
 
 
 
-**Git:** Creé un repositorio de Git para el proyecto **(https://github.com/willflorez/machine-learning1.0)** .
+**Git:** Link del repositorio de GitHub **(https://github.com/willflorez/machine-learning1.0)** .
 
 **Despliegue en Render:** Con Render se despliega la API. [API en ejecución](https://proyecto-machine-learning-1-0.onrender.com/docs). En la web se puede hacer el uso de las funciones y del modelo de recomendación.
 
