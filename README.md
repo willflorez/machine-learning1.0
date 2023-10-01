@@ -95,18 +95,14 @@ Luego de completar la implementación de **main.py** y demás archivos que compo
 <div align="center">
 
 link al repositorio
-
-
-
-https://github.com/willflorez/machine-learning1.0
-
+[https://github.com/willflorez/machine-learning1.0]
 
 
 link al video explicativo
-https://www.loom.com/share/44560780b5a94f229ede5b18300114c3?sid=1441e474-2bbf-412b-953e-29e8e20d6608
+[https://www.loom.com/share/44560780b5a94f229ede5b18300114c3?sid=1441e474-2bbf-412b-953e-29e8e20d6608]
 
 
 link de render
-https://proyecto-machine-learning-1-0.onrender.com/docs
+[https://proyecto-machine-learning-1-0.onrender.com/docs]
 
 </div>
